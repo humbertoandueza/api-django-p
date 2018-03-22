@@ -122,8 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> 9920042eec5a90aeb245ba17d21b65c51312b4fd
+SECURE_SSL_REDIRECT = True
