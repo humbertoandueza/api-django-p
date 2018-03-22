@@ -25,7 +25,7 @@ SECRET_KEY = '0sx322d@ss2*2ly*ch)$z*-miuk$#fq2(!x!1hhsm$2i-5zxei'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['humberto.pythonanywhere.com']
 
 
 # Application definition
@@ -122,4 +122,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
+<<<<<<< HEAD
 ]
+=======
+]
+>>>>>>> 9920042eec5a90aeb245ba17d21b65c51312b4fd
