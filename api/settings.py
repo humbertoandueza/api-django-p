@@ -25,7 +25,7 @@ SECRET_KEY = '0sx322d@ss2*2ly*ch)$z*-miuk$#fq2(!x!1hhsm$2i-5zxei'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['humberto.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'
 
@@ -123,4 +123,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+<<<<<<< HEAD
 SECURE_SSL_REDIRECT = True
+=======
+>>>>>>> 7516e28880a4e8a40862cc6095bd13dcb9295664
